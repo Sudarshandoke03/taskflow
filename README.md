@@ -1,16 +1,90 @@
-# React + Vite
+# TaskFlow – Task Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive Task Management System built using React.js.
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+TaskFlow is a frontend web application that helps users organize and manage their daily tasks efficiently.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add new tasks
+- Add task descriptions
+- Set task priority (Low, Medium, High)
+- Mark tasks as Completed or Pending
+- Delete tasks
+- Search tasks by title and description
+- Filter tasks by status
+- Save tasks using Browser LocalStorage
+- Responsive user interface
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- LocalStorage
+
+## Installation and Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Sudarshandoke03/taskflow.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd taskflow
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## React Concepts Used
+
+- useState – To manage component state.
+- useEffect – To save tasks in LocalStorage.
+- map() – To display and update tasks.
+- filter() – To search, filter and delete tasks.
+- Event Handling – To handle user interactions.
+
+## Project Structure
+
+```text
+taskflow/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── README.md
+```
+
+## Project Type
+
+Frontend-only React application.
+
+Task data is stored in the browser's LocalStorage. No backend or database is connected.
+
+## Author
+
+Sudarshan Doke
+
+## GitHub Repository
+
+https://github.com/Sudarshandoke03/taskflow
